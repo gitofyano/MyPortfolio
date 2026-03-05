@@ -9,6 +9,6 @@
 **工夫した点**
 - jQueryを使わずJavaScriptをオブジェクト指向で実装
 
-[🌐 Demo](https://gitofyano.github.io/My-Portfolio/CodeJump1/) / 
+[🌐 Demo](https://gitofyano.github.io/MyPortfolio/CodeJump1/) / 
 **1page**
 ![CodeJump1](../CodeJump1/img/screenshot.png)

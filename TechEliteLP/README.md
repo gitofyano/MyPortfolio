@@ -10,6 +10,6 @@
 - Figmaのデザインデータからパーフェクトピクセルで作成しました。
 - 初回案件でCSSは汚いですが、タイムスケジュールはflexboxで作成しレスポンシブ含めて見た目の完成度はしっかり仕上げました。
 
-[🌐 Demo](https://gitofyano.github.io/My-Portfolio/TechEliteLP/) /
+[🌐 Demo](https://gitofyano.github.io/MyPortfolio/TechEliteLP/) /
 **1page**
 ![TechEliteLP](../TechEliteLP/img/screenshot.png)

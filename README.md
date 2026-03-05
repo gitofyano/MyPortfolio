@@ -7,8 +7,8 @@
 
 ## TechElite-LP (2025/12/01)
 
-[🌐 Demo](https://gitofyano.github.io/My-Portfolio/TechEliteLP/) /
-[📂 Source](https://github.com/gitofyano/My-Portfolio/tree/main/TechEliteLP) / 
+[🌐 Demo](https://gitofyano.github.io/MyPortfolio/TechEliteLP/) /
+[📂 Source](https://github.com/gitofyano/MyPortfolio/tree/main/TechEliteLP) / 
 1page
 
 <img src="TechEliteLP/img/screenshot.png" width="420">
@@ -24,8 +24,8 @@ Figmaのデザインデータからパーフェクトピクセルで作成しま
 
 ## CodeJump-課題1
 
-[🌐 Demo](https://gitofyano.github.io/My-Portfolio/CodeJump1/) /
-[📂 Source](https://github.com/gitofyano/My-Portfolio/tree/main/CodeJump1) / 
+[🌐 Demo](https://gitofyano.github.io/MyPortfolio/CodeJump1/) /
+[📂 Source](https://github.com/gitofyano/MyPortfolio/tree/main/CodeJump1) / 
 1page
 
 <img src="CodeJump1/img/screenshot.png" width="420">
