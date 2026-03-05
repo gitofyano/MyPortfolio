@@ -7,7 +7,7 @@
 - JavaScript
 
 **工夫した点**
-- jQueryを使わずJavaScriptをオブジェクト指向で実装
+- jQueryを使わずJavaScriptをオブジェクト指向で実装しました。
 
 [🌐 Demo](https://gitofyano.github.io/MyPortfolio/CodeJump1/) / 
 **1page**
