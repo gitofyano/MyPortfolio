@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*
+privacy
+*/
+.privacy {
+    padding-top: 248px;
+    padding-bottom: 148px;
+}
+.privacy .privacy-title {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 90px;
+}
+.privacy .text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+.privacy .description .content .subtitle {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #B8A973;
+    margin-bottom: 32px;
+}
+.privacy .description .content .content-text {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    margin-bottom: 42px;
+    width: calc(100% + 5px);
+}
+.privacy .description .content .content-text .list-three li {
+    position: relative;
+    padding-left: 24px;
+}
+.privacy .description .content .content-text .list-three li:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #383838;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    border-radius: 50% 50%;
+}
+.privacy .description .content.row4 .content-text li {
+    list-style: decimal;
+    margin-left: 21px;
+    letter-spacing: 0em;
+}
+.privacy .description .content.row4 .content-text li span {
+    margin-left: 3px;
+    letter-spacing: 0.3em;
+}
+.privacy .description .content.row5 .content-text {
+    line-break: strict;
+}
+.privacy .description .content.row5 .content-text .first li {
+    list-style: decimal;
+    list-style-position: inside;
+    margin-left: 3px;
+    letter-spacing: 0.5em;
+}
+.privacy .description .content.row5 .content-text .first li span {
+    letter-spacing: 0.3em;
+    text-align: justify;
+    margin-left: -3px;
+}
+.privacy .description .content.row5 .content-text .second li {
+    letter-spacing: 0em;
+    list-style-position: outside;
+    margin-left: 20px;
+}
+.privacy .description .content.row5 .content-text .second li span {
+    margin-left: 1px;
+}
+.privacy .description .content.row5 .content-text .third li {
+    list-style-type: lower-alpha;
+    margin-left: 25px;
+}
+.privacy .description .content.row5 .content-text .third li span {
+    letter-spacing: 0.3em;
+}
+
+.privacy .description .content.row7 .content-text li {
+    list-style: decimal;
+    margin-left: 21px;
+    letter-spacing: 0em;
+}
+.privacy .description .content.row7 .content-text li span {
+    letter-spacing: 0.3em;
+    margin-left: 3px;
+}
+.privacy .description .content.row9 .content-text {
+    padding-right: 1px;
+}
+.privacy .description .content.row10 .content-text .first li {
+    list-style: decimal;
+    list-style-position: inside;
+    letter-spacing: 0.3em;
+    /* line-break: strict; */
+}
+.privacy .description .content.row10 .content-text .first li span {
+    letter-spacing: 0.3em;
+}
+.privacy .description .content.row10 .content-text .second li {
+    margin-left: 0px;
+    letter-spacing: 0em;
+}
+.privacy .description .content.row10 .content-text .second li span {
+    letter-spacing: 0.3em;
+    margin-left: 2px;
+}
+.content.row10 .ind {
+    padding-left: 3px;
+    margin-right: 3px;
+}
+.content.row10 .ind span {
+    margin-left: 5px;
+}
+.content.row3 {
+    margin-top: -5px;
+}
+.content.row4 {
+    margin-bottom: -10px;
+}
+.content.row5 {
+    margin-top: 52px;
+}
+@media screen and (max-width: 844px) {
+    .privacy {
+        padding-top: 97px;
+        padding-bottom: 26px;
+    } 
+    .privacy .privacy-title {
+        font-size: 22px;
+        margin-bottom: 33px;
+        margin-top: 36px;
+    }
+    .privacy .text {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 32px;
+        margin-bottom: 34px;
+    }
+    .privacy .description .content .subtitle {
+        display: block;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+        width: 100%;
+        border-bottom: 2px solid #B8A973;
+        height: 38px;
+        text-decoration: none;
+    }
+    .privacy .description .content .content-text {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    .content.row3 {
+        margin-top: 0px;
+    }
+    .content.row4 {
+        margin-bottom: 0px;
+    }
+    .privacy .description .content.row4 .content-text {
+        width: 100%;
+        line-break: strict;
+        text-align: left;
+    }
+    .content.row5 {
+        margin-top: 0px;
+    }
+    .privacy .description .content.row5 .content-text .third li {
+        list-style-type: lower-alpha;
+        margin-left: 19px;
+    }
+}

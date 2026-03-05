@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+.newsarch {
+    padding-top: 248px;
+    padding-bottom: 185px;
+}
+.newsarch .newsarch-h1-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.newsarch .newsarch-topline {
+    width: 100%;
+    background-color: #E4E4E4;
+    height: 1px;
+    margin: 0;
+    border: none;
+}
+.newsarch .newsarch-area {
+    padding-bottom: 15px;
+}
+.newsarch .newsarch-area .newsarch-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsarch .newsarch-area .newsarch-box .textbox .newsarch-date {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding-top: 24px;
+    padding-bottom: 14px;
+}
+.newsarch .newsarch-area .newsarch-box .textbox .newsarch-title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding-bottom: 28px;
+}
+.newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo {
+    width: 40px;
+    height: 40px;
+    background-color: #B8A973;
+    border-radius: 50%;
+    position: relative;
+}
+.newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo::before {
+    content: "";
+    width: 14px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    transform: rotate(33deg);
+}
+.newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo::after {
+    content: "";
+    width: 14px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 23px;
+    right: 12px;
+    transform: rotate(147deg);
+}
+.newsarch .newsarch-area .newsarch-bottomline {
+    width: 100%;
+    margin: 0;
+    border: none;
+    background-color: #E4E4E4;
+    height: 1px;
+}
+.common-btnbox.newsarch-btnbox .common-btn .common-btn-text::before { 
+    right: -43px;
+}
+.common-btnbox.newsarch-btnbox .common-btn .common-btn-text::after { 
+    right: -44px;
+}
+
+.newsarch .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.newsarch .nav-links .page-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #B5B5B5;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    text-decoration: none;
+}
+.newsarch .nav-links .page-numbers:hover {
+    color: #B5B5B5;
+}
+.newsarch .nav-links .page-numbers.current {
+    color: #ffffff;
+    background-color: #383838;
+}
+.newsarch .nav-links .page-numbers.dots {
+    border: none;
+    background: none;
+    cursor: default;
+}
+.newsarch .nav-links .page-numbers.dots:hover {
+    color: #B5B5B5;
+    background: none;
+}
+@media screen and (max-width: 844px) {
+    .newsarch {
+        padding-top: 96px;
+        padding-bottom: 55px;
+    }
+    .newsarch .newsarch-h1-title {
+        font-size: 22px;
+        margin-top: 36px;
+        margin-bottom: 34px;
+    }
+        .newsarch .newsarch-area {
+            padding-bottom: 0px;
+        }
+        .newsarch .newsarch-area .newsarch-box .textbox .newsarch-date {
+            font-size: 12px;
+            padding-top: 18px;
+            padding-bottom: 8px;
+        }
+        .newsarch .newsarch-area .newsarch-box .textbox .newsarch-title {
+            font-size: 14px;
+            line-height: 26px;
+            padding-bottom: 16px;
+            padding-right: 20px;
+        }
+        .newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo {
+            width: 24px;
+            height: 24px;
+        }
+        .newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo::before {
+            width: 8px;
+            top: 9px;
+            right: 8px;
+            transform: rotate(33deg);
+        }
+        .newsarch .newsarch-area .newsarch-box .logobox .logo-link .logo::after {
+            width: 8px;
+            top: 14px;
+            right: 8px;
+            transform: rotate(147deg);
+        }
+        .newsarch .nav-links {
+            margin-top: 43px;
+        }
+}

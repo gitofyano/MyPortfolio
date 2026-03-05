@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*
+thanks
+*/
+.thanks {
+    padding-top: 248px;
+    padding-bottom: 0;
+}
+.thanks .thanks-title {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.thanks .thanks-description {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 34px;
+    text-align: center;
+}
+.thanks .thanks-description .uptext {
+    margin-bottom: 40px;
+}
+.thanks .thanks-description .caution {
+    margin-bottom: 80px;
+}
+.thanks .thanks-description .detail {
+    margin-bottom: 198px;
+}
+@media screen and (max-width: 844px) {
+    .thanks {
+        padding-top: 96px;
+        padding-bottom: 0;
+    }
+    .thanks .thanks-title {
+        font-size: 22px;
+        margin-top: 36px;
+        margin-bottom: 52px;
+        margin-left: 5px;
+
+    }
+    .thanks .thanks-description {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: justify;
+    }
+    .thanks .thanks-description .uptext {
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .thanks .thanks-description .caution {
+        margin-bottom: 38px;
+        text-align: justify;
+    }
+    .thanks .thanks-description .detail {
+        margin-bottom: 58px;
+        text-align: justify;
+    }
+}

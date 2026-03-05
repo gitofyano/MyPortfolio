@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/*
+bloglist
+*/
+.bloglist {
+    background-color: #ffffff;
+    padding-top: 248px;
+    padding-bottom: 200px;
+}
+.bloglist .bloglist-title {
+    font-size: 28px;
+    letter-spacing: 0.3em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 70px;
+    margin-left: 9px;
+}
+.bloglist .blog-area {
+    display: flex;
+    justify-content: center;
+    gap: clamp(
+        10px,
+        calc((100VW - 844px) * (30 - 10) / (1440 - 844) + 10px),
+        30px
+        );
+    margin-bottom: 59px;
+    flex-wrap: wrap;
+}
+.bloglist .blog-area .blog-link {
+    display: flex; 
+    flex: 1;
+}
+.bloglist .blog-area .blog-link .blog-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    flex: 1;
+    min-width: 380px;
+    max-width: 380px;
+    min-height: 398px;
+}
+.bloglist .blog-area .blog-link .blog-box img {
+    width: 100%;
+    aspect-ratio: 380 / 230;
+    object-fit: cover;
+    display: block;
+}
+
+.bloglist .blog-area .blog-link .blog-box .text-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+    padding-left:22px;
+    padding-top: 18px;
+    padding-right: 18px;
+}
+.bloglist .blog-area .blog-link .blog-box .text-area .blog-date {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    margin-bottom: 8px;
+}
+.bloglist .blog-area .blog-link .blog-box .text-area .blog-title {
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: clamp(14px, 1.1vw, 16px);
+
+}
+.bloglist .blog-area .blog-link .blog-box .blog-tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+ .bloglist .blog-area .blog-link .blog-box .blog-tags .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: #ffffff;
+    background-color: #B8A973;
+    border-radius: 13px;
+    padding-left: 16px;
+    padding-right: 14px;
+    height: 26px;
+    flex-wrap: nowrap;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+.bloglist .tag-space {
+    margin-bottom: 30px;
+}
+.bloglist .tag-space .tag-filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+.bloglist .tag-space .tag-filter .blog-tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin-right: 16px;
+    margin-bottom: 15px;
+}
+.bloglist .tag-space .tag-filter .blog-tags .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: #B8A973;
+    background-color: #ffffff;
+    border: #B8A973 1px solid;
+    border-radius: 20px;
+    padding-left: 19px;
+    padding-right: 15px;
+    height: 40px;
+    flex-wrap: nowrap;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+.bloglist .tag-space .tag-filter .blog-tags .tag.is-active {
+    color: #ffffff;
+    background-color: #B8A973;
+}
+
+/* ページネーション */
+.bloglist .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.bloglist .nav-links .page-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #B5B5B5;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    text-decoration: none;
+}
+.bloglist .nav-links .page-numbers:hover {
+    color: #B5B5B5;
+}
+.bloglist .nav-links .page-numbers.current {
+    color: #ffffff;
+    background-color: #383838;
+}
+.bloglist .nav-links .page-numbers.dots {
+    border: none;
+    background: none;
+    cursor: default;
+}
+.bloglist .nav-links .page-numbers.dots:hover {
+    color: #B5B5B5;
+    background: none;
+}
+
+@media screen and (max-width: 844px) { 
+    .bloglist .blog-area {
+        flex-wrap: wrap;
+        gap: clamp(
+            23px,
+            calc((100vw - 375px) * (45 - 23) / (844 - 375) + 23px),
+            45px
+        );
+        margin-bottom: 30px;
+    } 
+    .bloglist .blog-area .blog-link {
+        flex: 0 1 335px;
+        max-width: 335px;
+    }
+
+    .bloglist .blog-area .blog-link .blog-box {
+        width: 100%;
+        height: 100%;
+    }
+    .bloglist .blog-area .blog-link .blog-box .img-area {
+        width: 100%;
+    }
+    .bloglist .blog-area .blog-link .blog-box .img-area img {
+        width: 100%;
+        aspect-ratio: 335 / 200;
+        object-fit: cover;
+    }
+    .bloglist .blog-area .blog-link .blog-box .text-area {
+        padding-left:18px;
+        padding-top: 16px;
+        padding-right: 14px;
+}
+    .bloglist .blog-area .blog-link .blog-box .text-area .blog-date {
+        font-size: 12px;
+    }
+    .bloglist .blog-area .blog-link .blog-box .text-area .blog-title {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .bloglist .blog-area .blog-link .blog-box .blog-tags {
+        margin-bottom: 20px;
+    }
+     .bloglist .blog-area .blog-link .blog-box .blog-tags .tag {
+        font-size: 12px;
+        padding-left: 14px;
+        padding-right: 12px;
+        height: 25px;
+    }
+    .tag-space {
+        width: calc(100% + 8px);
+     }
+    .bloglist {
+        padding-top: 96px;
+        padding-bottom: 55px;
+    }
+    .bloglist .bloglist-title {
+        font-size: 22px;
+        margin-top: 36px;
+        margin-bottom: 34px;
+    }
+    .bloglist .blog-area .blog-link .blog-box .blog-tags .tag {
+        font-size: 14px;
+    }
+    .bloglist .tag-space .tag-filter .blog-tags{
+        margin-bottom: 8px;
+        margin-right: 8px;
+        }
+    .bloglist .tag-space .tag-filter .blog-tags .tag {
+        font-size: 16px;
+        height: 30px;
+        width: 106px;
+        margin: 0 auto;
+    }
+    .bloglist .blog-area .blog-link .blog-box {
+        max-width: 335px;
+        min-width: 335px;
+        min-height: 350px;
+    }
+
+
+
+
+
+}

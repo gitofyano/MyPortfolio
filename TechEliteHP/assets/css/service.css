@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/*
+service
+*/
+.service {
+    padding-top: 248px;
+    padding-bottom: 126px;
+}
+.service-title {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    margin-top: 91px;
+}
+.service .content {
+    margin-bottom: 68px;
+}
+.service .content .sub-title {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 75px;
+    margin-left: 5px;
+}
+.service .content .sub-title::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: #B8A973;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.service .content .text {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-bottom: 42px;
+    line-height: 34px;
+    margin-left: 5px;
+}
+.service .content .description {
+    margin-bottom: 57px;
+}
+.service .content .description p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 34px;
+    margin-bottom: 57px;
+    width: calc(100% + 6px);
+    text-align: justify;
+}
+.service .content .description .img-box.column2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(
+    15px,
+    calc((100vw - 844px) * (40 - 15) / (1440 - 844) + 15px),
+    40px
+    );
+}
+.service .content .description .img-box.column3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(
+    15px,
+    calc((100vw - 844px) * (30 - 15) / (1440 - 844) + 15px),
+    30px
+    );
+}
+.service .content .description .img-box.column2 .img {
+    max-width: 580px;
+    min-width: 335px;
+    flex: 1 1 0;
+}
+.service .content .description .img-box.column3 .img {
+    max-width: 380px;
+    min-width: 335px;
+    flex: 1 1 0;
+}
+.service .content .description .img-box .img img {
+    width: 100%;
+}
+.service .content dl {
+    display: grid;
+    grid-template-columns: minmax(230px, 1fr) 3fr;
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #E4E4E4;
+}
+.service .content dl dt {
+    border-right: 1px solid #E4E4E4;
+}
+.service .content dl dt,
+.service .content dl dd {
+    border-bottom:  1px solid #E4E4E4;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 34px;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.service .content dl dt:last-of-type,
+.service .content dl dd:last-of-type {
+    border-bottom: none;
+}
+.service .content dl dd li {
+    margin-left: 10px;
+    padding-left: 13px;
+    position: relative;
+}
+.service .content dl dd li::after {
+    position: absolute;
+    content: "";
+    top: 16px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50% 50%;
+    background-color: #383838;
+}
+.service .content .description .center {
+    text-align: center;
+}
+.service .content .description .service-btnbox {
+    margin-top: 56px;
+    margin-bottom: 82px;
+}
+.service .content .description.space {
+    margin-bottom: 23px;
+}
+.service .content .comment .top {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 35px; 
+    margin-left: 5px;
+}
+.service .content .comment .bottom {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 5px;
+}
+.service .content .text.space {
+    margin-bottom: 60px;
+}
+.service .content .description.sspace {
+    margin-bottom: 76px;
+}
+.service .content .text.ssspace {
+    margin-bottom: 60px;
+}
+.service .square-btn .square-btn-text::before {
+    right: -65px;
+}
+.service .square-btn .square-btn-text::after {
+    right: -65px;
+}
+@media screen and (max-width: 844px) {
+    .service {
+        padding-top: 97px;
+        padding-bottom: 4px;
+    }
+    .service-title {
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 26px;
+    }
+    .service .content {
+        margin-bottom: 43px;
+    }
+    .service .content .sub-title {
+        font-size: 20px;
+        margin-bottom: 47px;
+    }
+    .service .content .sub-title::after {
+        width: 70px;
+        top: 42px;
+    }    
+    .service .content .text {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+    .service .content .description {
+        margin-bottom: 37px;
+    }
+    .service .content .description p {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 38px;
+    }
+    .service .content dl {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #E4E4E4;
+    }
+    .service .content dl dt {
+        font-size: 14px;
+        line-height: 34px;
+        padding-bottom: 0px; 
+        border-bottom: none;
+        border-right: none;
+    }
+    .service .content dl dd {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        padding-top: 2px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 12px; 
+        line-break: strict;
+    }
+    .service .content dl dd li::after {
+        top: 11px;
+        left: 0;
+        width: 4px;
+        height: 4px;
+    }
+    .service .content .description .center {
+        text-align: justify;
+    }
+    .service .content .description .img-box.img-box.column3 {
+        gap: clamp(
+        17px,
+        calc((100vw - 844px) * (40 - 17) / (1440 - 844) + 17px),
+        40px
+        );
+    }
+    .service .content .description .service-btnbox {
+        margin-top: 24px;
+        margin-bottom: 45px;
+    }
+    .service .content .description.space {
+        margin-bottom: 14px;
+    }
+    .service .content .comment .top {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0px; 
+        margin-left: 5px;
+        padding-left: 0.5em;
+        text-indent: -0.5em;
+    }
+    .service .content .comment .top p {
+        margin-bottom: 25px;
+    }
+    .service .content .comment .bottom {
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: -6px;
+        text-align: left;
+        width: calc(100% + 6px);
+        margin-left: 0px;
+        margin-bottom: 45px;
+    }
+    .service .content .text.space {
+        margin-bottom: 35px;
+    }
+    .service .content .description.sspace {
+        margin-bottom: 40px;
+    }
+    .service .content .text.ssspace {
+        margin-bottom: 35px;
+    }
+}
+
+
+
+
+

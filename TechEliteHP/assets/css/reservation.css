@@ -1,0 +1,473 @@
+@charset "UTF-8";
+/*
+reservation
+*/
+.reservation {
+    padding-top: 220px;
+}
+.reservation .reservation-title {
+    font-size: 28px;
+    letter-spacing: 0.3em;
+    font-weight: 400;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-left: 3px;
+}
+.reservation .description {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3em;
+    padding-bottom: 78px;
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 81px;
+}
+.reservation .detail {
+    margin: 0 auto;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 54px;
+    margin-bottom: 60px;
+}
+.reservation .detail .row {
+    max-width: calc(240px + 570px + 90px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    margin-bottom: 20px;
+}
+.reservation .detail .row .subtitle {
+    width: 240px;
+}
+.reservation .detail .row .subtitle .red {
+    color: #cc0000;
+}
+.reservation .detail .row .subtitle.font {
+    margin-top: 8px;
+}
+.reservation .detail .row .subtitle .small {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    margin-left: 8px;
+}
+.reservation .detail .row .subtitle.position {
+    align-self: flex-start;
+    margin-top: 17px;
+}
+.reservation .detail .row .content input,
+.reservation .detail .row .content select {
+    width: 570px;
+    height: 60px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding-left: 20px;
+    border: 1px solid #E4E4E4;
+}
+.reservation .detail .row .content textarea {
+    width: 570px;
+    height: 270px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding: 10px 20px;
+    border: 1px solid #E4E4E4;
+} 
+.reservation .detail .row .inner-box .inner-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 570px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+}
+.reservation .detail .row .inner-box .inner-row input {
+    width: 430px;
+    height: 60px;
+}
+.reservation .detail .row .inner-box .inner-row:last-child {
+    margin-bottom: 0;
+}
+.reservation .detail .row .inner-box .inner-row:last-child .subtitle {
+    line-height: 26px;
+}
+.reservation .text{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.3em;
+    margin-bottom: 40px;
+}
+.reservation .form-btn {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    background-color: #B8A973;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #ffffff;
+    cursor: pointer;
+}
+.reservation .form-btn:hover {
+    opacity: 0.7;
+}
+
+.reservation form .detail .content .error {
+    font-size: 14px;
+    color: red;
+    display: none;
+} 
+.reservation form .error.last {
+    text-align: center;
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+.reservation form .detail .type-select .arrow {
+    position: relative;
+}
+.reservation form .detail .type-select .arrow::after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid black;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.reservation form .detail .type-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.reservation form .detail #checkin::placeholder,
+.reservation form .detail #checkout::placeholder {
+  color: #B5B5B5;
+}
+.reservation form .detail .type-select select:invalid {
+  color: #B5B5B5;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  box-shadow: 0 0 0 1000px #fff inset ;
+  -webkit-text-fill-color: #383838;
+}
+.reservation form .detail .content input,
+.reservation form .detail .content select,
+.reservation form .detail .content textarea {
+    font-family: "Noto Serif JP", serif;
+}
+.reservation form .detail .content .flatpicker-input.flatpicker-mobile
+
+@media screen and (max-width: 844px) {
+    .reservation {
+        padding-top: 74px;
+    }
+    .reservation .reservation-title {
+        font-size: 22px;
+        letter-spacing: 0.3em;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 34px;
+        margin-top: 36px;
+    }
+    .reservation .description {
+        font-size: 16px;
+        line-height: 32px;
+        padding-bottom: 39px;
+        margin-bottom: 33px;
+    }
+    .reservation .detail {
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+    }
+    .reservation .detail .row {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 16px;
+    }
+    .reservation .detail .row .content {
+        width: 100%;
+    }
+    .reservation .detail .row .content input,
+    .reservation .detail .row .content select {
+        padding-left: 16px;
+        padding-top: 5px;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .reservation .detail .row .content textarea {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .reservation .detail .row .inner-box {
+        width: 100%;
+    }
+    .reservation .detail .row .inner-box .inner-row {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        font-size: 14px;
+        line-height: 34px;
+        margin-bottom: 0px;
+    }
+    .reservation .detail .row .inner-box .inner-row:last-child {
+        margin-top: 5px;
+        margin-bottom: -5px;
+    }
+
+    .reservation .detail .row .inner-box .inner-row input {
+        width: 100%;
+        margin-top: 4px;
+    }
+    .reservation .detail .row .subtitle {
+        width: 100%;
+    }
+    .reservation .detail .row .subtitle.font {
+        margin-top: 0;
+    }
+    .reservation .detail .row .subtitle.position {
+        margin-top: 0;
+    }
+    #children {
+        margin-top: 8px;
+    }
+    .reservation .detail .row .content textarea {
+        height: 310px;
+    }
+    .reservation .text {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 28px;
+    }
+    .reservation .form-btn {
+        width: 100%;
+        max-width: 400px;
+        font-size: 16px;
+    }
+}
+
+/*
+flatpickr
+*/
+.flatpickr-calendar {
+    border: 1px solid #B8A973;
+    border-radius: 4px;
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.1);
+    max-width: 560px;
+    width: 100%;
+    height: 348px;
+}
+.flatpickr-calendar::before, 
+.flatpickr-calendar::after {
+    display: none;
+}
+.flatpickr-months {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative !important;
+}
+.flatpickr-prev-month {
+    position: absolute !important;
+    top: 5px !important;
+    left: 150px !important;
+}
+.flatpickr-month {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 44px !important;
+}
+.flatpickr-current-month {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.flatpickr-current-month .cur-month {
+    letter-spacing: 0.3em !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: "Noto Serif JP", serif !important;
+}
+.flatpickr-current-month .cur-month:hover{
+    background: transparent !important;
+}
+.flatpickr-current-month .numInputWrapper {
+    position: relative;
+    margin-right: 8px;
+    letter-spacing: 0.3em !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: "Noto Serif JP", serif !important;
+    width: 80px !important;    
+    pointer-events: none !important;
+}
+.flatpickr-current-month .numInputWrapper::after {
+    position: absolute;
+    content: "年";
+    top: 4px;
+    left: 60px;
+    background: transparent !important;
+}
+.flatpickr-current-month .numInputWrapper::before {
+    position: absolute;
+    content: "/";
+    top: 3px;
+    left: 81px;
+    letter-spacing: 0.3em !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: "Noto Serif JP", serif !important;
+}
+.flatpickr-current-month .numInputWrapper:hover {
+    background: transparent !important;
+    color: inherit !important;   
+}
+.flatpickr-current-month .numInputWrapper .numInput {
+    letter-spacing: 0.3em !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: "Noto Serif JP", serif !important;
+    color: #383838 !important;
+}
+.flatpickr-current-month .numInputWrapper .arrowUp,
+.flatpickr-current-month .numInputWrapper .arrowDown {
+    display: none ;
+}
+.flatpickr-next-month {
+    position: absolute !important;
+    top: 5px !important;
+    right: 150px !important;
+}
+
+.flatpickr-innerContainer {
+    height: calc(100% - 34px);
+    border-radius: 4px;
+}
+.flatpickr-rContainer {
+    width: 100%;
+    height: 100%;
+}
+.flatpickr-weekdays {
+    margin-bottom: 10px;
+}
+.flatpickr-weekdaycontainer {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 34px !important;
+    letter-spacing: 0.3em !important;
+    font-family: "Noto Serif JP", serif !important;
+}
+.flatpickr-weekday {
+    font-family: "Noto Serif JP", serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.3em !important;
+    line-height: 34px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flatpickr-days {
+    width: 100%;
+}
+.dayContainer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.flatpickr-day {
+    width: 80px;
+    max-width: 80px;
+    min-width: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.3em;
+    font-family: "Noto Serif JP", serif;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+}
+.flatpickr-day:hover {
+    background-color: #B8A973;
+    color: #ffffff;
+    border: #B8A973;
+}
+.flatpickr-day.today{
+    border: none;
+}
+.flatpickr-day.selected {
+    background-color: #B8A973;
+    border-radius: 0;
+    border: #B8A973;
+}
+.flatpickr-day.selected:hover,
+.flatpickr-day.selected:focus {
+    background: #B8A973; 
+    color: #ffffff;
+}
+.flatpickr-time {}
+.flatpickr-hour {}
+.flatpickr-time-separator {}
+.flatpickr-minute {}
+.flatpickr-days .dayContainer .flatpickr-day:nth-child(n+36) {
+    display: none;
+}
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay{
+    visibility: hidden;
+    pointer-events: none;
+}
+@media screen and (max-width: 844px) {
+    .flatpickr-calendar {
+        width: calc(100% - 20px);
+    }
+    .flatpickr-prev-month {
+        left: calc( (100% - 375px) * (150 - 50) / (580 - 375) + 50px ) !important;
+    }
+    .flatpickr-next-month {
+        right: calc( (100% - 375px) * (150 - 50) / (580 - 375) + 50px ) !important;
+    }
+    .flatpickr-weekday {
+        letter-spacing: 0.15em !important;
+    }
+    .flatpickr-day {
+        letter-spacing: 0.15em !important;
+    }
+    .flatpickr-day {
+        width: auto;
+        min-width: 0;
+        max-width: none;
+    }
+}

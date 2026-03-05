@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*
+header
+*/
+.header {
+    background-color: transparent;
+}
+.header .menu .reserve-btn.border-shadow {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
