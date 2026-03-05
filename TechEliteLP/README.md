@@ -2,8 +2,7 @@
 - 2025/12/01
 
 **使用技術**
-- HTML
-- CSS
+- HTML / CSS
 - JavaScript
 
 **工夫した点など**

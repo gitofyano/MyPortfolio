@@ -2,8 +2,7 @@
 - 2026/03/04
 
 **使用技術**
-- HTML
-- CSS
+- HTML / CSS
 - JavaScript
 
 **工夫した点**

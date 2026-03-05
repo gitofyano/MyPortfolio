@@ -24,12 +24,12 @@ Figmaのデザインデータからパーフェクトピクセルで作成しま
 
 [🌐 Demo](https://gitofyano.github.io/MyPortfolio/TechEliteHP/) /
 [📂 Source](https://github.com/gitofyano/MyPortfolio/tree/main/TechEliteHP) / 
-1page
+Web site
 
 - **作成日：**
 2026/02/17
 - **概要：**
-WordPressで作成しました。CSSをスマートに可読性を向上させました。formカレンダーとプラグインの目次の修飾もfigmaに沿って作成しました。
+WordPressで作成しました。CSSをスマートに可読性を向上させて、formカレンダーとプラグインの目次の修飾もfigmaのデザインに一致するよう作成しました。
 
 ## CodeJump 課題1
 
