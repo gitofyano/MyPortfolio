@@ -1,0 +1,579 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #000;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    opacity: 0.6;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+main {
+    padding-bottom: 76px;
+}
+.highlight {
+    background: linear-gradient(rgba(255, 255, 255, 0) 0, #ffff00 0);
+    font-weight: bold;
+}
+.content-title {
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.feature-inner {
+    max-width: 880px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.feature-title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.head-text {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 90px;
+    position: relative;
+}
+#header .mv img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+#header .logo {
+    line-height: 1px;
+    position: absolute;
+    top: 26px;
+    left: 44px;
+}
+#header .header-text {
+    position: absolute;
+    top: 132px;
+    left: 44px;
+}
+#header .badge {
+    position: absolute;
+    bottom: -26px;
+    right: 28px;
+}
+#course {
+    max-width: 880px;
+    padding: 0 20px;
+    margin: 0 auto 140px auto;
+}
+#course .section-title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+#course .course-name {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#course .course-schedule {
+    margin-bottom: 80px;
+    text-align: center;
+}
+#course .course-text {
+    margin-bottom: 50px;
+    text-align: center;
+}
+#course .course-arrow {
+    margin-bottom: 40px;
+    text-align: center;
+}
+#course .flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#course .flex .item {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+#course .flex .title {
+    margin-bottom: 20px;
+}
+#course .flex .item:first-of-type {
+    margin-right: 80px;
+}
+#course .flex .item .img {
+    margin-bottom: 20px;
+}
+#course .flex .item .img img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 50%;
+}
+#course .flex .item .text {
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: justify;
+}
+#feature .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#feature .icon-feature {
+    width: 300px;
+    margin: -120px auto 40px auto;
+}
+#feature .feature-index {
+    background-color: rgba(69, 204, 196, 0.5);
+    padding: 50px 20px;
+}
+#feature .feature-index .index {
+    max-width: 840px;
+    margin: 0 auto;
+}
+#feature .feature-index .index li {
+    margin-bottom: 30px;
+}
+#feature-1 {
+    padding-top: 50px;
+}
+#feature-1 .item {
+    max-width: 380px;
+    margin: 0 auto;
+}
+#feature-1 .item .title {
+    background-color: #eb4e45;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#feature-1 .item .img {
+    margin-bottom: 10px;
+}
+#feature-1 .item .description {
+    font-size: 12px;
+}
+#feature-1 .flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+#feature-1 .flex .item {
+    margin: 0;
+}
+#feature-1 .flex .item .description {
+    padding: 0 20px;
+}
+#feature-1 .link {
+    margin-bottom: 40px;
+    text-align: center;
+}
+#feature-1 .link a {
+    font-size: 14px;
+    position: relative;
+    text-decoration: underline;
+}
+#feature-1 .link a::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -16px;
+    top: 5px;
+}
+#feature-1 .curriculum {
+    background-color: #ecfcfb;
+    padding: 40px 0;
+}
+#feature-1 .curriculum .img {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#feature-1 .curriculum .point {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ecfcfb;
+}
+#feature-1 .curriculum .point .point-img {
+    width: 32%;
+    max-width: 260px;
+    margin-right: 6%;
+    text-align: center;
+}
+#feature-1 .curriculum .point .point-text {
+    width: 62%;
+}
+#feature-1 .curriculum .point .point-text .point-title {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+#feature-1 .curriculum .point .point-text .point-description {
+    font-size: 14px;
+    line-height: 1.8;
+}
+#feature-2 {
+    padding-top: 50px;
+}
+#feature-2 .img-wide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+#feature-3 {
+    padding-top: 50px;
+}
+#feature-3 .teacher {
+    display: flex;
+    flex-wrap: wrap;
+}
+#feature-3 .teacher li {
+    width: 31%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 0 3.5% 30px 0;
+}
+#feature-3 .teacher li:nth-child(3n) {
+    margin-right: 0;
+}
+#feature-3 .teacher li .subject {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 8px;
+    margin-bottom: 10px;
+}
+#feature-3 .teacher li .name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#feature-3 .teacher li .comment {
+    font-size: 14px;
+}
+#feature-3 .link {
+    text-align: center;
+}
+#feature-3 .link a {
+    font-size: 14px;
+    position: relative;
+    text-decoration: underline;
+}
+#feature-3 .link a::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -16px;
+    top: 5px;
+}
+#feature-4 {
+    padding-top: 50px;
+}
+#feature-4 .graph {
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+}
+#feature-4 .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#feature-4 .voice {
+    max-width: 400px;
+    background-image: url(../img/bg-line.png);
+    background-repeat: repeat;
+    padding: 40px;
+    text-align: center;
+}
+#feature-4 .voice:first-of-type {
+    margin-right: 40px;
+}
+#feature-4 .voice .name {
+    display: inline-block;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-bottom: 25px;  
+}
+#feature-4 .voice .description {
+    font-size: 13px;
+    line-height: 2;
+    text-align: justify;
+}
+#feature-5 {
+    padding: 50px 0 70px 0;
+}
+#feature-5 .support {
+    background-color: #ecfcfb;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+#feature-5 .support-list {
+    max-width: 740px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 0 20px 12%;
+}
+#feature-5 .support-list li {
+    width: calc(100% / 3);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#feature-5 .support-list li::before {
+    content: "●";
+    color: #45ccc4;
+}
+#feature-5 .support-text {
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center;
+}
+#feature-5 .point-img {
+    margin-bottom: 50px;
+}
+#feature-5 .point-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#feature-5 .point-description {
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+}
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+#footer a {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #45ccc4;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 28px 0;
+}
+#footer a:hover {
+    opacity: 0.9;
+}
+#footer a .text {
+    margin-right: 20px;
+}
+#footer a .arrow {
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
+#footer a:first-child {
+    margin-right: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        padding-bottom: 52px;
+    }
+    .pc {
+        display: none !important;
+    }
+    .head-text {
+        text-align: justify;
+    }
+    #header {
+        margin-bottom: 72px;
+    }
+    #header .mv img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    #header .logo {
+        top: 20px;
+        left: 22px;
+    }
+    #header .header-text {
+        max-width: 210px;
+        top: 80px;
+        left: 22px;
+    }
+    #header .badge {
+        max-width: 180px;
+        bottom: -50px;
+        right: 16px;
+    }
+    #course {
+        margin: 0 auto 80px auto;
+    }
+    #course .section-title {
+        margin-bottom: 40px;
+    }
+    #course .course-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    #course .course-schedule {
+        margin-bottom: 40px;
+    }
+    #course .course-text {
+        margin-bottom: 20px;
+    }
+    #course .course-arrow {
+        max-width: 180px;
+        margin: 0 auto 30px auto;
+    }
+    #course .flex {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    #course .flex .item {
+        max-width: 100%;
+    }
+    #course .flex .item:first-of-type {
+        margin: 0 0 40px 0;
+    }
+    #feature .section-title {
+        font-size: 19px;
+    }
+    #feature .icon-feature {
+        width: 200px;
+        margin: -100px auto 40px auto;
+    }
+    #feature .feature-index .index li {
+        margin-bottom: 10px;
+    }
+    #feature-1 .flex {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    #feature-1 .flex .item {
+        margin-bottom: 40px;
+    }
+    #feature-1 .curriculum .img {
+        margin-bottom: 30px;
+    }
+    #feature-1 .curriculum .point {
+        flex-direction: column;
+    }
+    #feature-1 .curriculum .point .point-img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
+    #feature-1 .curriculum .point .point-text {
+        width: 100%;
+    }
+    #feature-1 .curriculum .point .point-text .point-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    #feature-2 .img-wide img {
+        height: 400px;
+    }
+    #feature-3 .teacher li {
+        width: 48%;
+        padding: 10px;
+        margin: 0 4% 15px 0;
+    }
+    #feature-3 .teacher li:nth-child(3n) {
+        margin-right: 4%;
+    }
+    #feature-3 .teacher li:nth-child(2n) {
+        margin-right: 0;
+    }
+    #feature-4 .flex {
+        flex-direction: column;
+    }
+    #feature-4 .voice {
+        padding: 20px;
+    }
+    #feature-4 .voice:first-of-type {
+        margin: 0 0 20px 0;
+    }
+    #feature-4 .voice .img {
+        width: 100%;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+    #feature-4 .voice .name {
+        margin-bottom: 15px;
+    }
+    #feature-4 .voice .description {
+        font-size: 12px;
+    }
+    #feature-5 .support {
+        margin-bottom: 40px;
+    }
+    #feature-5 .support-list {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 20px 0;
+    }
+    #feature-5 .support-list li {
+        width: 100%;
+    }
+    #feature-5 .point-description {
+        text-align: justify;
+    }
+    #footer a {
+        font-size: 16px;
+        padding: 18px 0;
+    }
+    #footer a .text {
+        margin-right: 10px;
+    }
+    #footer a .arrow {
+        width: 8px;
+        height: 8px;
+    }
+}

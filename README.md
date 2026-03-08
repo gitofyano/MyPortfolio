@@ -50,4 +50,17 @@ jQueryを使わずJavaScriptをオブジェクト指向で実装しました。
 
 - 準備中
 
+## CodeJump 課題3
+
+<img src="CodeJump3/img/screenshot.png" width="420">
+
+[🌐 Demo](https://gitofyano.github.io/MyPortfolio/CodeJump3/) /
+[📂 Source](https://github.com/gitofyano/MyPortfolio/tree/main/CodeJump3) / 
+1page
+
+
+- **作成日：**
+2026/03/08
+- **概要：**
+デザインからのimage画像が多く、実装は比較的簡単でした。スムーススクロールはjsで実装しました。
 
